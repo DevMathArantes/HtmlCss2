@@ -1,0 +1,8 @@
+Link com diversos tipos de seletores css
+https://www.alura.com.br/artigos/css-seletores-avancados-aplicacoes-web?_gl=1*yklwlt*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzY5NDk5My4zMS4xLjE3MTc2OTcxNzEuMC4wLjA.
+
+Organização css
+https://www.alura.com.br/artigos/comecando-a-organizar-seu-css?_gl=1*rpqsqs*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzY5NDk5My4zMS4xLjE3MTc2OTgyNzEuMC4wLjA.
+
+Criar componentes padrão BEM
+https://www.alura.com.br/artigos/criando-componentes-css-com-padrao-bem?_gl=1*7owtlc*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzY5NDk5My4zMS4xLjE3MTc2OTg0NzcuMC4wLjA.

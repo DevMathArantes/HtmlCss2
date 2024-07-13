@@ -1,0 +1,180 @@
+/*
+Link definição de classes
+https://www.w3schools.com/cssref/sel_class.php
+
+Link com sugestões para nomear classes
+https://www.alura.com.br/artigos/nomes-de-classes-no-css?_gl=1*p48844*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzUwOTEyMi4yMS4xLjE3MTc1MTAyMjYuMC4wLjA.
+
+Link com tipos de seletores
+https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors
+
+Link com artigo detalhado sobre CSS
+https://www.alura.com.br/artigos/o-que-e-reset-css?_gl=1*atn4vw*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzUwOTEyMi4yMS4xLjE3MTc1MTA0OTguMC4wLjA.
+
+- Pegar todos os seletores
+*{...}
+O "*" diz respeito a tudo dentro do css, tudo terá seus atributos
+
+Link especificando o box model
+https://www.w3schools.com/css/css_boxmodel.asp
+
+- Tamanhos podem ser dados em:
+
+px (pixels)
+
+% (porcentagem)
+
+vh (porcentagem viewport)
+
+Link com especificações do box-sizing
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+Link com guia de unidades css
+https://www.alura.com.br/artigos/guia-de-unidades-no-css?_gl=1*14ctu4x*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzUxMzM3My4yMi4xLjE3MTc1MTUxNDYuMC4wLjA.
+
+Link com especificações do flexbox
+https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox
+
+Link com guia de flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Link Google Fonts
+https://fonts.google.com/
+
+Link Fonte Krona One
+https://fonts.google.com/specimen/Krona+One?query=krona+one
+
+Link com guia para o Google Fonts
+https://developers.google.com/fonts/docs/getting_started?hl=pt-br
+
+Link com guia para bordas em css
+https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css?_gl=1*116a0v7*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzY5NDk5My4zMS4xLjE3MTc2OTUwMzYuMC4wLjA.
+
+Link artigo sobre gap
+https://css-tricks.com/almanac/properties/g/gap/
+
+Link artigo sobre flexbox
+https://www.alura.com.br/artigos/css-guia-do-flexbox?_gl=1*zz4paa*_ga*MTc2NjQ3MDQ4NS4xNzE2MjE1MTU2*_ga_1EPWSW3PCS*MTcxNzY5NDk5My4zMS4xLjE3MTc2OTY4NDMuMC4wLjA.
+
+- Novos atributos:
+
+Margem externa dos elementos
+margin:...;
+
+Tamanho do caráctere 
+font-size:...;
+
+Espaçamento interno
+padding:...;
+
+Tamanho vertical
+height:...;
+
+Tamanho horizontal
+width:...;
+
+Comportamento geral
+box sizing:...;
+valores:
+content-box (contido dentro da tag pai, mas pode ser maior)
+border-box (encolhe o elemento dentro do pai)
+
+Forma como os elementos aparecem
+display:...;
+
+Apenas com display flex:
+.Alinhamento vertical dos elementos em relação a si mesmos
+align-items:...;
+.Direção do flex (row por padrão)
+flex-direction:...;
+"row" para organizar em horizontal
+"column" para organizar em vertical
+.Organização horizontal dos elementos
+justify-content:...;
+"flex-start": Alinha os itens ao início do contêiner flexível.
+"flex-end": Alinha os itens ao final do contêiner flexível.
+"center": Centraliza os itens no contêiner flexível.
+"space-between": Distribui os itens uniformemente, com o primeiro item alinhado ao início e o último alinhado ao final.
+"space-around": Distribui os itens uniformemente, com espaço igual entre eles.
+"space-evenly": Distribui os itens uniformemente, com espaço igual entre eles e nas extremidades.
+.Distância entre elementos
+gap:...;
+
+Importar fonte
+@import url('...');
+
+Alinhar texto
+text-align:...;
+"center" alinha o texto no centro
+
+Arredondar borda
+border-radius:...;
+
+Decoração de texto
+text-decoration:...;
+
+Observação: o parâmetro é o link da fonte
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body main img{
+    width: 32%;
+    box-shadow: 10px -10px 1px #22D4FD;
+}
+.destaqueTitulo{
+    color: #22D4FD;
+}
+.destaque{
+    color: #22D4FD;
+    font-size: 20px;
+    font-size: 24px;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8% 13% 0% 13%;
+}
+.principalConteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentaçaoConteudoTitulo{
+    font-size: 36px;
+    font-family: "Krona One", sans-serif
+}
+.apresentaçaoConteudoParagrafo{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+}
+.apresentaçaoLinks{
+    display: flex;
+    justify-content: space-between;
+}
+.apresentaçaoLinksLink{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
